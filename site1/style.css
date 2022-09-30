@@ -16,8 +16,9 @@ box-sizing: border-box;
 body {
 font-family: var(--ff-primary);
 font-weight: 400;
-font-size: 1,3125rem;
+font-size: 1,3rem;
 line-height: 1.6;
+background-color: #fff;
 /*background: url('Old site/back1.jpg') top left no-repeat;*/
 }
 
@@ -32,8 +33,7 @@ footer {
     width: 100%;
     margin: 0 auto;
     max-width: 60em;
-    background-color: #fff;
-}
+    }
 
 
 
