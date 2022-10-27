@@ -66,8 +66,7 @@ footer {
    h1 span {color: ;}  */ 
 
 h1,
-h2,
-h3 {
+h2{
     font-family: var(--ff-primary);
     font-weight: 900;
     line-height: 1;
@@ -95,15 +94,11 @@ p {
 .menu {
  display: flex; 
  flex-direction: column;  
+ justify-content: left;
  align-items: center;
  /*background-color: #fee0b2;*/
- border-radius: 9px;
+ /*border-radius: 9px;*/
  text-align: center;
-}
-
-.menu-items-container {
-    display: flex; 
-    align-items: center;
 }
 
 
@@ -229,15 +224,12 @@ img {
     .colm-2 {width: 48%;}
     .menu, nav ul, .flex-colomn, .split2 {
         flex-direction: row;
-        justify-content: space-between;
     }
     
 }
 @media (max-width: 41em) {
-    .radio {
-        margin: .6em 0;
-    }
-    .menu-items-container {
+  
+    .menu {
         flex-direction: column;
     }
     nav li {font-size: 1.3em;
