@@ -62,7 +62,8 @@ p {
 
 .menu {
  display: flex; 
- flex-direction: column;  
+ flex-direction: row;
+ justify-content: space-between;  
  align-items: center;
  background-color: #2e354f;
  text-align: center;
@@ -70,24 +71,30 @@ p {
 
 .menu-items-container {
     display: flex; 
+    flex-direction: row;
     align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 58em;
+
 }
 
 
-nav ul {
+ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     list-style: none;
     justify-content: left;
     padding: 0;
-    margin: 0 1.6em;
+    margin: 0 1.3em;
     font-size: 1.2rem;
 }
 
 
-nav li {
+li {
     line-height: 1.2rem;
-    margin: 0 .6em;
+    margin: 0 .5em;
     padding: 0;
 }
 
@@ -172,25 +179,21 @@ img {
 
 /*RESPONSIVE*/
 
-@media (min-width: 42em) {
 
-    .menu, nav ul {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-@media (max-width: 42em) {
+@media (max-width: 46em) {
+    
     .radio {
         margin: 1.1em 0;
     }
+
+    .menu{flex-direction: column;}
+
     .menu-items-container {
         flex-direction: column;
     }
-    nav li {font-size: 1.3rem;
-        line-height: 2rem;
-    }
-    .radio a, .radio a:hover, .radio a:focus{
+
+ 
+    .radio a, .radio a:hover, .radio a:focus {
         font-size: 3.6rem;
         line-height: 2.5rem;
     }
@@ -201,11 +204,65 @@ img {
     {
         grid-column: 1 / -1;
     }
+    
+    .logo {
+        margin: 0;
+        margin-top: 0.3em;
+        padding: 0;
+        
+            }
+
+             ul {
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                justify-content: center;
+                padding: 0;
+                margin: 0 1.6em;
+                font-size: 1.2rem;
+            }
+             li {
+                line-height: 1.2rem;
+                margin: 0.4em;
+                padding: 0.3em;
+                    vertical-align: middle;
+                    background-color:#ffab00;
+                    
+                    border: #363636;
+                    border-radius: 0.6em;
+            }   
+            nav a {
+                text-decoration: none;
+                color: #3f2108;
+            }
+            
+            nav a:hover,
+            nav a:focus 
+                {
+                color: #aa3507;
+                text-decoration: none;
+            }    
 
 }
 
 
 /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .split {
     display: flex;
     flex-direction: column;
