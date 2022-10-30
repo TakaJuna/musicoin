@@ -75,7 +75,7 @@ p {
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    max-width: 68.7em;
+    max-width: 69.52em;
 
 }
 
@@ -87,14 +87,14 @@ ul {
     list-style: none;
     justify-content: left;
     padding: 0;
-    margin: 0 1.3em;
+    margin: 0;
     font-size: 1.2rem;
 }
 
 
 li {
     line-height: 1.2rem;
-    margin: 0 .5em;
+    margin: 0 .48em;
     padding: 0;
 }
 
@@ -116,7 +116,7 @@ nav a:focus
 .radio {
     float: right;
     font-family: var(--ff-accent);
-    margin: 0 1.1em;
+    margin: 0 0.82em 0 0;
     line-height: 1.16rem;
     text-align: center;
     text-decoration: none;
@@ -141,7 +141,7 @@ nav a:focus
 
 
 .logo {
-    margin: 0.4em 0.3em;
+    margin: 0.4em 1.82em 0.4em 0;
 }
 
 
@@ -185,7 +185,7 @@ img {
 @media (max-width: 46em) {
     
     .radio {
-        margin: 1.1em 0;
+        margin: 0.6em 0;
     }
 
     .menu{flex-direction: column;}
@@ -221,22 +221,23 @@ img {
                 list-style: none;
                 justify-content: center;
                 padding: 0;
-                margin: 1em 1.6em;
+                margin: 0.6em 1.6em;
                 font-size: 1.2rem;
             }
              li {
                 line-height: 1.2rem;
-                margin: 0.4em;
+                margin: 0.42em;
                 padding: 0.3em;
                     vertical-align: middle;
                     background-color:#ffab00;
                     
                     border: #363636;
-                    border-radius: 0.6em;
+                    border-radius: 0.8em;
             }   
             nav a {
                 text-decoration: none;
                 color: #3f2108;
+                font-size: 1.05rem;
             }
             
             nav a:hover,
