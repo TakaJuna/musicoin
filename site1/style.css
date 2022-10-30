@@ -53,6 +53,8 @@ p {
     padding: 0;
 }
 
+.responsive {color: #000000;}
+
 
 /*HEADER*/
 
@@ -226,7 +228,8 @@ footer {
     .menu {
         flex-direction: column;
     }
-    
+
+      
     .logo {
         margin: 0;
         padding: 0;
@@ -254,7 +257,7 @@ img {width: 16.5em;}
         list-style: none;
         justify-content: center;
         padding: 0;
-        margin: 0 1.6em;
+        margin-bottom: 1em;
         font-size: 1.2rem;
     }
     nav li {
@@ -262,9 +265,9 @@ img {width: 16.5em;}
         margin: 0.36em;
         padding: 0.5em;
             vertical-align: middle;
-            background-color:#fbce00;
-            border: 0.13em outset;
-            border-color: #f57f10;
+            background: linear-gradient(0deg, rgb(212, 178, 26) 0%, rgb(253, 249, 186) 76%);
+            border: 0.02em solid;
+            border-color:rgb(212, 178, 26);
             border-radius: 1.12em;
     }   
     nav a {
@@ -282,5 +285,17 @@ img {width: 16.5em;}
     .row-column{
         display: flex;
         flex-direction: column;
+    }
+
+    .split2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+        
+    }
+    .responsive {
+        color: #a06d0e;
+        margin: 0 .2em;
     }
 }
