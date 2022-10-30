@@ -74,6 +74,8 @@ p {
    }
 
 nav ul {
+    display: flex; 
+    flex-direction: row;
     padding: 0;
     margin: 0 1.6em;
     font-size: 1.03em;
@@ -223,7 +225,7 @@ footer {
 
 
 
-@media (max-width: 41em) {
+@media (max-width: 38em) {
   
     .menu {
         flex-direction: column;
