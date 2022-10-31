@@ -67,6 +67,7 @@ p {
  align-items: center;
  background-color: #2e354f;
  text-align: center;
+ margin-bottom: 1.6em;
 }
 
 .menu-items-container {
@@ -166,10 +167,19 @@ main {
 .grid-column-span2 {
     grid-column: span 2;
 }
-.grid-column-all {
-    grid-column: 1 / -1;
+.grid-column-span3 {
+    grid-column: span 3;
+    }
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
 }
 
+.bg-stripe-left {
+    background: linear-gradient(90deg, rgb(255,255,255) 75%, rgb(252, 193, 169) 77%);
+}
 
 /*FOR ALL*/
 
