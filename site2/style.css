@@ -31,10 +31,20 @@ h3 {
     line-height: 1;
 }
 
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    font-size: 1.5rem;
+    color: rgb(70, 76, 80);
+    text-decoration: overline;
+}
+
+
 h3 {
     font-family: var(--ff-accent);
-    font-size: 1.3em;
-    line-height: 1.3em;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
 }
 
 h1 {
