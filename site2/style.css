@@ -177,15 +177,11 @@ main {
     gap: 2rem;
 }
 
-.bg-stripe-left {
+.bg-stripe-right {
     background: linear-gradient(90deg, rgb(255,255,255) 75%, rgb(252, 193, 169) 77%);
 }
 
-/*FOR ALL*/
 
-img {
-    max-width: 100%;
-    }
 
 
 
