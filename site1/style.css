@@ -27,10 +27,10 @@ h1 {
     font-family: var(--ff-primary);
     font-weight: 900;
     line-height: 1;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: cadetblue;
     padding: 0;
-    margin: 0.3em 0;
+    margin: 0.4em 0;
     letter-spacing: .1rem;
 }
 
